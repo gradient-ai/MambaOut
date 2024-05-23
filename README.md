@@ -42,7 +42,8 @@ Figure 2: The mechanism illustration of causal attention and RNN-like models fro
 ![MambaOut third figure](https://raw.githubusercontent.com/yuweihao/misc/master/MambaOut/mambaout_third_figure.png)
 Figure 3: (a) Two modes of token mixing. For a total of $T$ tokens, the fully-visible mode allows token $t$ to aggregate inputs from all tokens, i.e., $ \left\{ x_i \right\}_{i=1}^{T} $, to compute its output $y_t$. In contrast, the causal mode restricts token $t$ to only aggregate inputs from preceding and current tokens $ \left\{ x_i \right\}_{i=1}^{t} $. By default, attention operates in fully-visible mode but can be adjusted to causal mode with causal attention masks. RNN-like models, such as Mamba's SSM, inherently operate in causal mode due to their recurrent nature. (b) **We modify the ViT's attention from fully-visible to causal mode and observe performance drop on ImageNet, which indicates causal mixing is unnecessary for understanding tasks.**
 
-
+> **Getting Started:**
+> [![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/MambaOut?machine=Free-GPU)
 
 ## Requirements
 PyTorch and timm 0.6.11 (`pip install timm==0.6.11`).
