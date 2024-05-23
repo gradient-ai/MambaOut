@@ -5,8 +5,7 @@
     <img src="https://img.shields.io/badge/arXiv-2405.07992-b31b1b.svg?style=flat" /></a>
 <a href="https://huggingface.co/spaces/whyu/MambaOut" alt="Hugging Face Spaces">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" /></a>
-<a href="https://colab.research.google.com/drive/1DTJRsPczV0pOwmFhEjSWyI2NqQoR_u-K?usp=sharing" alt="Colab">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" /></a>
+
 </p>
 
 <p align="center"><em>In memory of Kobe Bryant</em></p>
@@ -77,7 +76,7 @@ Data preparation: ImageNet with the following folder structure, you can extract 
 \* [Kobe Memorial Version](https://github.com/yuweihao/MambaOut/issues/5#issuecomment-2119555019) with 24 Gated CNN blocks. 
 
 #### Usage
-We also provide a Colab notebook which runs the steps to perform inference with MambaOut: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DTJRsPczV0pOwmFhEjSWyI2NqQoR_u-K?usp=sharing).
+
 
 ## Gradio demo
 A web demo is shown at [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/whyu/MambaOut). You can also easily run gradio demo locally. Besides PyTorch and timm==0.6.11, please install gradio by `pip install gradio`, then run
